@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<jnlp spec="0.2.1.0"
+      codebase="http://127.0.0.1/"
+      href="MyApp.jnlp">
+
+    <information>
+        <title>My App Beat Box</title>
+        <vendor>Smart</vendor>
+        <homepage href="index.html"/>
+        <description>WebStart BeatBox</description>
+        <icon href="my.gif"/>
+        <offline-allowed/>
+    </information>
+
+    <resources>
+        <j2se version="1.3+"/>
+        <jar href="BeatBox.jar"/>
+    </resources>
+
+    <application-desc main-class="BeatBoxFinal"/>
+</jnlp>
